@@ -85,7 +85,6 @@ Je hebt verschillende symbolen die je kunt gebruiken voor Boolean.
 
 Null of undefined betekent dat het geen waarde heeft gekregen of er niet is.
 
-```
 console.log(8 * null)
 // → 0
 console.log("5" - 1)
@@ -101,7 +100,6 @@ console.log(null || "user")
 // → user
 console.log("Agnes" || "user")
 // → Agnes
-```
 
 -
 
