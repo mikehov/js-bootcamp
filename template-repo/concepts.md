@@ -8,7 +8,8 @@ BINDINGS AND SCOPES
 https://eloquentjavascript.net/03_functions.html#h_XqQR5FlX+8
 
 Elke binding heeft een scope. Scope is het hele programma, de bindings zijn heel globaal. De bindings die zijn gemaakt voor functies of parameters kunnen alleen daarin aangeroepen worden. Bindings roep je aan met "let" of "const", dit kan ook met "var" maar dit is de oude methode.
-```let x = 10;
+```js
+let x = 10;
 if (true) {
   let y = 20;
   var z = 30;
@@ -21,7 +22,8 @@ console.log(x + z);
 ```
 
 Er zijn global en local bindings. Binnen de andere blokken en functies kun de blokken en functies worden gemaakt, waardoor ze op meerde plekken kunnen worden gegbruikt. Global is overal en local is alleen op die plek, binnen een functie is dus bijvoorbeeld local. 
-```const hummus = function(factor) {
+```js
+const hummus = function(factor) {
   const ingredient = function(amount, unit, name) {
     let ingredientAmount = amount * factor;
     if (ingredientAmount > 1) {
@@ -35,7 +37,8 @@ Er zijn global en local bindings. Binnen de andere blokken en functies kun de bl
   ingredient(1, "clove", "garlic");
   ingredient(2, "tablespoon", "olive oil");
   ingredient(0.5, "teaspoon", "cumin");
-};```
+};
+```
 
 -
 
@@ -43,7 +46,8 @@ YOU DON'T KNOW JS YET: SCOPE & CLOSURES - 2ND EDITION
 https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch4.md
 
 Probeer global scope altijd zoveel mogelijk te vermijden, dit maakt het maken van namen makkelijker. Hier een voorbeeld van een functie in een functie. 
-```(function wrappingOuterScope(){
+```js
+(function wrappingOuterScope(){
     var moduleOne = (function one(){
         // ..
     })();
@@ -57,13 +61,17 @@ Probeer global scope altijd zoveel mogelijk te vermijden, dit maakt het maken va
 
         // ..
     })();
-})();```
+})();
+```
 
-```var moduleOne = (function one(){
+```js
+var moduleOne = (function one(){
     // ..
-})();```
+})();
+```
 
-```var moduleTwo = (function two(){
+```js
+var moduleTwo = (function two(){
     // ..
 
     function callModuleOne() {
@@ -71,7 +79,8 @@ Probeer global scope altijd zoveel mogelijk te vermijden, dit maakt het maken va
     }
 
     // ..
-})();```
+})();
+```
 
 JS exposes its built-ins:
 primitives: undefined, null, Infinity, NaN
@@ -87,16 +96,19 @@ timers (setTimeout(..), etc)
 web platform APIs: navigator, history, geolocation, WebRTC, etc.
 
 Dit werkt hetzelfde als met de plus en quotes, alleen nu doe je het met dollar sign.
-```var studentName = "Kyle";
+```js
+var studentName = "Kyle";
 
 function hello() {
     console.log(`Hello, ${ studentName }!`);
 }
 
 hello();
-// Hello, Kyle!```
+// Hello, Kyle!
+```
 
-```global.studentName = "Kyle";
+```js
+global.studentName = "Kyle";
 
 function hello() {
     console.log(`Hello, ${ studentName }!`);
@@ -105,7 +117,8 @@ function hello() {
 hello();
 // Hello, Kyle!
 
-module.exports.hello = hello;```
+module.exports.hello = hello;
+```
 
 -
 

@@ -12,11 +12,13 @@ Bijvoorbeeld bij het maken van een stuiterende bal is het handig om meerdere fun
 
 Wil je alle functions bijvoorbeeld activeren doe dan het volgende.
 
-```Function bal() {
+```js
+Function bal() {
     Move();
     Display();
     Bounce();
-}```
+}
+```
 
 Define is dus het maken en Calling is het aanroepen van dit. 
 
@@ -27,19 +29,24 @@ https://eloquentjavascript.net/03_functions.html
 
 Functies zijn de brood en boter van Javascript. 
 
-```const square = function(x) {
+```js
+const square = function(x) {
   return x * x;
 };
 
 console.log(square(12));
-// → 144```
+// → 144
+```
 
 Manier om je paramater te gebruiken. Je kunt ook pas in je console eventueel de parameter invullen.
 
-```const makeNoise = function() {
+```js
+const makeNoise = function() {
   console.log("Pling!");
 };
+```
 
+```js
 makeNoise();
 // → Pling!
 
@@ -52,7 +59,8 @@ const power = function(base, exponent) {
 };
 
 console.log(power(2, 10));
-// → 1024```
+// → 1024
+```
 
 Je kunt ook function omdraaien, dit doe je omdat je anders te veel functie namen gaat krijgen. Ze werken inprincipe hetzelfde. 
 
@@ -60,7 +68,8 @@ Bindings en scopes:
 Scope is het hele programma. 
 Bindings is een stukje. 
 
-```let x = 10;
+```js
+let x = 10;
 if (true) {
   let y = 20;
   var z = 30;
@@ -69,13 +78,14 @@ if (true) {
 }
 // y is not visible here
 console.log(x + z);
-// → 40```
+// → 40
+```
 
 Dit is een goed voorbeeld van het verschil tussen let en var. 
 Let kan alleen gezien worden binnen de if en er niet buiten. 
 Var kan overal gezien worden.
 
-
+```js
 const halve = function(n) {
   return n / 2;
 };
@@ -85,5 +95,6 @@ console.log(halve(100));
 // → 50
 console.log(n);
 // → 10
+```
 
 Het antwoord is 50 omdat je de functie uitvoert. 100 / 2 is 50. Bij de tweede wordt alleen de parameter gebruikt, en omdat n 10 is, is het antwoord ook 10. 
