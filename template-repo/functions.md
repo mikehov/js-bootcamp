@@ -1,9 +1,9 @@
-BOOTCAMP DAG 2
+###BOOTCAMP DAG 2
 Dit zijn mijn aantekeningen van alle bronnen, ik heb het zo kort mogelijk proberen voor mezelf te verwoorden om het te kunnen begrijpen. Ik ben niet goed in Javascript en kan het een beetje lezen, dus ik probeer er zoveel mogelijk zo goed mogelijk van op te steken.
 
 -
 
-5.1: FUNCTION BASICS -P P5.JS TUTORIAL
+####5.1: FUNCTION BASICS -P P5.JS TUTORIAL
 https://www.youtube.com/watch?v=wRHAitGzBrg
 
 Je kunt functions definen of callen. Function moeten modified zijn en reusable. Anders kan je straks niet meer vinden wat je zoek en een ander al helemaal niet.
@@ -24,7 +24,7 @@ Define is dus het maken en Calling is het aanroepen van dit.
 
 -
 
-FUNCTIONS
+####FUNCTIONS
 https://eloquentjavascript.net/03_functions.html
 
 Functies zijn de brood en boter van Javascript. 

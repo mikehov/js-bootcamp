@@ -1,9 +1,9 @@
-BOOTCAMP DAG 1
+###BOOTCAMP DAG 1
 Dit zijn mijn aantekeningen van alle bronnen, ik heb het zo kort mogelijk proberen voor mezelf te verwoorden om het te kunnen begrijpen. Ik ben niet goed in Javascript en kan het een beetje lezen, dus ik probeer er zoveel mogelijk zo goed mogelijk van op te steken.
 
 -
 
-INTRODUCTION
+####INTRODUCTION
 https://eloquentjavascript.net/00_intro.html
 
 Computers zijn steeds moeilijker geworden, je kunt je mail bekijken je kunt je rekenmachine pakken. Je computer weet wel wat je wil. Maar voor unieke dingen is er niet altijd een applicatie. Programmeren is daarvoor handig, programmeren is het constructueren van een programma, ook wel domme instructies die zeggen wat er moet gebeuren. Computers zijn dom. Programmeren is moeilijk en frustrerend maar wel rewarding. Je kunt je computer dingen laten doen die het eerst niet kon. Een programmeertaal bestaat ook, zo kun je communiceren met de computer. Javascript is er hier een van. Er is veel veranderd wat betreft interface van computers, vroeger had je DOS en BASIC. Dit zorgde voor minder vrijheid maar makkelijker te gebruiken. 
@@ -16,7 +16,7 @@ Talen veranderen dus browsers ook, oude browsers vervallen daarom. Databases zoa
 
 -
 
-THE COMPLETE ECMASCRIPT 2015-2019 GUIDE
+####THE COMPLETE ECMASCRIPT 2015-2019 GUIDE
 https://flaviocopes.com/ecmascript/
 
 ECMAScript is de standard script waarop JS is gebasseerd, het woord ook wel ES genoemd. Javascript gebruikt veel termsen zoals:
@@ -33,7 +33,7 @@ ES.Next is een naam dat ltijd de laatste versie van Javascript laat zien.
 
 -
 
-YOU DON’T KNOW JS YET: GET STARTED – 2ND EDITION
+####YOU DON’T KNOW JS YET: GET STARTED – 2ND EDITION
 https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch1.md
 
 Javascript is een bestemming, geen richting. 
@@ -43,7 +43,7 @@ Javascript is an artifact of marketing shenanigans. Toen het bedacht werd door B
 
 -
 
-VAR, LET AND CONST – WHAT, WHY AND HOW – ES6 JAVASCRIPT FEATURES
+####VAR, LET AND CONST – WHAT, WHY AND HOW – ES6 JAVASCRIPT FEATURES
 https://www.youtube.com/watch?v=sjyJBL5fkp8
 
 Var pakt alles, waar het ook is, het gaat het proberen te zoeken. Let doet het alleen binnen de mapjes waar binnen het staat, dus bijvoorbeeld in een functie. Const is een constante eenheid die niet mag worden veranderd. 
@@ -53,7 +53,7 @@ Var = functionscope
 
 -
 
-VALUE, TYPES AND OPPERATORS
+####VALUE, TYPES AND OPPERATORS
 https://eloquentjavascript.net/01_values.html
 
 In de computer wereld is er alleen data, data om te lezen, om te maken enz... Dit bestaat uit nullen en enen. Soms zijn value nummers, soms tekst, soms, sommige zijn functies. Deze values moeten ergens zijn opgeslagen. Bij te veel data raakt je geheugen vol. Javascript werkt met 64 bits omdat je zoveel verschillende patronen hiermee kan maken. 
@@ -105,7 +105,7 @@ console.log("Agnes" || "user")
 
 -
 
-GENERAL JAVASCRIPT GUIDELINES
+####GENERAL JAVASCRIPT GUIDELINES
 https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/JavaScript#General_JavaScript_guidelines
 
 Maak je code zo leesbaar mogelijk. Gebruik op de juiste manier spaties en enters. Code moet duidelijk zijn met relevante logische begrijpelijke namen. Gebruiken elementen waar ze voor bedoeld zijn.

@@ -1,10 +1,10 @@
-BOOTCAMP DAG 3
+###BOOTCAMP DAG 3
 Dit zijn mijn aantekeningen van alle bronnen, ik heb het zo kort mogelijk proberen voor mezelf te verwoorden om het te kunnen begrijpen. Ik ben niet goed in Javascript en kan het een beetje lezen, dus ik probeer er zoveel mogelijk zo goed mogelijk van op te steken.
 freecodecamp link: https://www.freecodecamp.org/mikehov
 
 -
 
-7.1: WHAT IS AN ARRAY? - P5.JS TUTORIAL
+####7.1: WHAT IS AN ARRAY? - P5.JS TUTORIAL
 https://www.youtube.com/watch?v=VIQoUghHSxU
 
 Een array is een lijst met waardes.
@@ -26,7 +26,7 @@ Ze lijken heel erg op elkaar, maar vooral de volgorde is het gene wat belangrijk
 
 -
 
-2.3: JAVASCRIPT OBJECTS - P5.JS Tutorial
+####2.3: JAVASCRIPT OBJECTS - P5.JS Tutorial
 https://www.youtube.com/watch?v=-e5h4IGKZRY
 
 Inplaats van het neerzetten van drie variablen kun je ook een object neerzetten dat werkt als een soort container. Dan heb je maar één variabel nodig. Hieronder zie je een object met daarin data over het object.
@@ -42,7 +42,7 @@ Het probleem met objecten is dat je niet meer kunt verwijzen naar de x, y of dia
 
 -
 
-DATA STRUCTURES: OBJECTS AND ARRAYS
+####DATA STRUCTURES: OBJECTS AND ARRAYS
 https://eloquentjavascript.net/04_data.html
 
 Je kunt ook iets uit de array pakken maar dan -1. 

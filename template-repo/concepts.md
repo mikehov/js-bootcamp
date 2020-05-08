@@ -1,10 +1,10 @@
-BOOTCAMP DAG 4
+###BOOTCAMP DAG 4
 Dit zijn mijn aantekeningen van alle bronnen, ik heb het zo kort mogelijk proberen voor mezelf te verwoorden om het te kunnen begrijpen. Ik ben niet goed in Javascript en kan het een beetje lezen, dus ik probeer er zoveel mogelijk zo goed mogelijk van op te steken.
 freecodecamp link: https://www.freecodecamp.org/mikehov
 
 -
 
-BINDINGS AND SCOPES
+####BINDINGS AND SCOPES
 https://eloquentjavascript.net/03_functions.html#h_XqQR5FlX+8
 
 Elke binding heeft een scope. Scope is het hele programma, de bindings zijn heel globaal. De bindings die zijn gemaakt voor functies of parameters kunnen alleen daarin aangeroepen worden. Bindings roep je aan met "let" of "const", dit kan ook met "var" maar dit is de oude methode.
@@ -42,7 +42,7 @@ const hummus = function(factor) {
 
 -
 
-YOU DON'T KNOW JS YET: SCOPE & CLOSURES - 2ND EDITION
+####YOU DON'T KNOW JS YET: SCOPE & CLOSURES - 2ND EDITION
 https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch4.md
 
 Probeer global scope altijd zoveel mogelijk te vermijden, dit maakt het maken van namen makkelijker. Hier een voorbeeld van een functie in een functie. 
@@ -122,7 +122,7 @@ module.exports.hello = hello;
 
 -
 
-CLOSURES - PART 5 OF FUNCTIONAL PROGRAMMING IN JAVASCRIPT
+####CLOSURES - PART 5 OF FUNCTIONAL PROGRAMMING IN JAVASCRIPT
 https://www.youtube.com/watch?v=CQqwU2Ixu-U
 
 Javascript heeft clossures. Clossures maakt code leesbaaar. 
